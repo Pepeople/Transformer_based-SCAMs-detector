@@ -17,7 +17,7 @@ Both the DLS and Assay folders contains:
  
  Running the 42_base file is enough as it will run the other files accordingly. 
 
-All the models ,except for the transformer model, were reused, adjusted, or re-implemented in python:
+The following models were reused and adjusted from the following github resrepositories:
 
 [DeepSCAM model](https://github.com/tcorodrigues/DeepSCAMs)
  
@@ -25,6 +25,13 @@ All the models ,except for the transformer model, were reused, adjusted, or re-i
 
 [Random forest model od SCAM detective](https://github.com/alvesvm/scam_detective/tree/master) 
 
-[Re-implementation of the deep neural model of SCAM detective]Molina, C., Ait-Ouarab, L., & Minoux, H. (2022). Isometric stratified ensembles: a partial and incremental adaptive applicability domain and consensus-based classification strategy for highly imbalanced data sets with application to colloidal aggregation. Journal of Chemical Information and Modeling, 62(8), 1849-1862.
+The following were re-implemented in python based on their respective paper:
 
-[Re-implementation of the ISE model]
+Re-implementation of the deep neural model of SCAM detective:
+
+Alves, V. M., Capuzzi, S. J., Braga, R. C., Korn, D., Hochuli, J. E., Bowler, K. H., ... & Tropsha, A. (2020). SCAM detective: accurate predictor of small, colloidally aggregating molecules. Journal of Chemical Information and Modeling, 60(8), 4056-4063.
+
+Re-implementation of the ISE model:
+
+Molina, C., Ait-Ouarab, L., & Minoux, H. (2022). Isometric stratified ensembles: a partial and incremental adaptive applicability domain and consensus-based classification strategy for highly imbalanced data sets with application to colloidal aggregation. Journal of Chemical Information and Modeling, 62(8), 1849-1862.
+
